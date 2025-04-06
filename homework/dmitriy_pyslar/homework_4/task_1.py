@@ -10,7 +10,7 @@ print(my_dict['tuple'][-1])
 my_dict['list'].append('last element')
 my_dict['list'].pop(1)
 
-my_dict['dict']['i am a tuple'] = ('i', 'am', 'a', 'tuple')
+my_dict['dict'][('i am a tuple', )] = ('i', 'am', 'a', 'tuple')
 my_dict['dict'].pop('true')
 
 my_dict['set'].add(12)
