@@ -1,4 +1,4 @@
-list_number = range(1,101)
+list_number = range(1, 101)
 new_list_number = []
 for number in list_number:
     if number % 3 == 0 and number % 5 == 0:
